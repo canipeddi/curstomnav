@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "update-header-footor-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/updateHeaderFootor/UpdateHeaderFootorApplicationCustomizer.js",
+          "manifest": "./src/extensions/updateHeaderFootor/UpdateHeaderFootorApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "https://code.jquery.com/jquery-1.12.4.min.js"
+  },
+  "localizedResources": {
+    "UpdateHeaderFootorApplicationCustomizerStrings": "lib/extensions/updateHeaderFootor/loc/{locale}.js"
+  }
+}

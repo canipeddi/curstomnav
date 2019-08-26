@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://sptechtime.sharepoint.com/sites/test3",
+      "customActions": {
+        "c7bcf2b8-7c08-4e1a-8a11-c2d5ccbec98d": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "Top": "This is from Top",
+            "Bottom": "This is from Bottom"
+          }
+        }
+      }
+    },
+    "updateHeaderFootor": {
+      "pageUrl": "https://sptechtime.sharepoint.com/sites/test3",
+      "customActions": {
+        "c7bcf2b8-7c08-4e1a-8a11-c2d5ccbec98d": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "Top": "This is from Top",
+            "Bottom": "This is from Bottom"
+          }
+        }
+      }
+    }
+  }
+}
